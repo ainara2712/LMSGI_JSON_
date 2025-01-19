@@ -1,0 +1,62 @@
+{
+  "pokemons": [
+    {
+      "id": 1,
+      "nombre": "Pikachu",
+      "tipos": ["Eléctrico"],
+      "altura": "40 cm",
+      "peso": "6 kg",
+      "estadisticas": {
+        "velocidad": 90,
+        "fortaleza": 55,
+        "precisión": 60,
+        "resistencia": 50
+      },
+      "movimientos": [
+        {
+          "nombre": "Impactrueno",
+          "descripcion": "Un ataque eléctrico básico.",
+          "potencia": 40,
+          "contacto": false
+        },
+        {
+          "nombre": "Ataque rápido",
+          "descripcion": "Un ataque rápido y físico.",
+          "potencia": 40,
+          "contacto": true
+        }
+      ],
+      "imagen": "https://images.wikidexcdn.net//mwuploads//wikidex//thumb//7//77//latest//20150621181250//Pikachu.png//300px-Pikachu.png",
+      "evoluciones": [2]
+    },
+    {
+      "id": 2,
+      "nombre": "Raichu",
+      "tipos": ["Eléctrico"],
+      "altura": "80 cm",
+      "peso": "30 kg",
+      "estadisticas": {
+        "velocidad": 110,
+        "fortaleza": 85,
+        "precisión": 70,
+        "resistencia": 60
+      },
+      "movimientos": [
+        {
+          "nombre": "Trueno",
+          "descripcion": "Un poderoso ataque eléctrico.",
+          "potencia": 110,
+          "contacto": false
+        },
+        {
+          "nombre": "Cola férrea",
+          "descripcion": "Un ataque físico usando la cola.",
+          "potencia": 100,
+          "contacto": true
+        }
+      ],
+      "imagen": "https://images.wikidexcdn.net//mwuploads//wikidex//thumb//3//34//latest//20160815220038//Raichu.png/300px-Raichu.png",
+      "evoluciones": []
+    }
+  ]
+}
