@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Arxiu XML per a la gestió de nines Disney a la botiga online -->
+
+<cataleg_nines>
+    <!-- Nina 1: Elsa de Frozen -->
+    <producte codi="1">
+        <informacio>
+            <nom>Nina Elsa</nom>
+            <descripcio>Nina d'Elsa de la pel·lícula Frozen, amb vestit brillant i cabell llarg.</descripcio>
+        </informacio>
+        <detalls>
+            <preu moneda="EUR">29.99</preu>
+            <categoria>Nines Disney</categoria>
+            <disponibilitat>En estoc</disponibilitat>
+        </detalls>
+        <imatge></imatge>
+    </producte>
+
+    <!-- Nina 2: Anna de Frozen -->
+    <producte codi="2">
+        <informacio>
+            <nom>Nina Anna</nom>
+            <descripcio>Nina d'Anna de Frozen amb vestit de color verd i capa de gel.</descripcio>
+        </informacio>
+        <detalls>
+            <preu moneda="EUR">27.99</preu>
+            <categoria>Nines Disney</categoria>
+            <disponibilitat>Esgotat</disponibilitat>
+        </detalls>
+        <imatge>https://www.botigaonline.com/imatges/nina_anna.jpg</imatge>
+    </producte>
+</cataleg_nines>
